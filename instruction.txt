@@ -1,0 +1,5 @@
+instructions 
+first open a command promt and type pip install python 
+2.pip install kivy
+3.pip install kivMd
+ and import all necessary lbraries thatare needed 
