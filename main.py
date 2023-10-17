@@ -1,19 +1,20 @@
 # Dependencies
+#importing the libraries that are neede to run the project
 from kivymd.app import MDApp
 from kivymd.uix.dialog import MDDialog
 from kivymd.uix.boxlayout import MDBoxLayout
+#for getting date prom calander 
 from kivymd.uix.pickers import MDDatePicker
 
 from kivymd.uix.list import TwoLineAvatarIconListItem, ILeftBodyTouch
 from kivymd.uix.selectioncontrol import MDCheckbox
-
+#for  date nd time 
 from datetime import datetime
 
 # To be added after creating the database
 from database import Database
 # Initialize db instance
 db = Database()
-
 
 class DialogContent(MDBoxLayout):
     """OPENS A DIALOG BOX THAT GETS THE TASK FROM THE USER"""
